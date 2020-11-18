@@ -1,0 +1,52 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Sweetalert
+@import '~sweetalert2/src/sweetalert2.scss';
+
+.custom-file-label::after {
+    content: "Parcourir";
+}
+
+@import '~magnific-popup/dist/magnific-popup.css';
+
+.text-title, h1 {
+    color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.star-rating {
+  direction: rtl;
+  display: block;
+}
+
+.star-rating div {
+  display: inline-block;
+  font-size: 15px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+.star-yellow,
+.star-rating div:hover,
+.star-rating div:hover ~ div {
+  color: #f2b600
+}
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
